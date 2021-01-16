@@ -1,0 +1,52 @@
+.interactive {
+  display: flex;
+  flex-direction: column;
+  padding: 7rem 0;
+
+  @include respond(small) {
+    margin: 100px auto !important;
+    position: relative;
+    height: 500px;
+    padding: 0;
+    flex-direction: row;
+  }
+
+  &__img {
+    width: 100%;
+
+    @include respond(small) {
+      width: auto;
+    }
+  }
+
+  &__content {
+    text-align: center;
+    padding: 50px 0;
+    background-color: $White;
+
+    @include respond(small) {
+      position: absolute;
+      width: 43rem;
+      padding: 4rem;
+      right: 0;
+      bottom: 0;
+    }
+
+    h2 {
+      font-family: 'Josefin Sans';
+      font-weight: 300;
+      font-size: 2.7rem;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+
+      @include respond(small) {
+        font-size: 3rem;
+      }
+    }
+
+    p {
+      color: $VeryDarkGray;
+      font-size: 1.2rem;
+    }
+  }
+}

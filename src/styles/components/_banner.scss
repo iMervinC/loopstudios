@@ -1,0 +1,14 @@
+.banner-hero {
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('/images/mobile/image-hero.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40rem;
+
+  @include respond(small) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('/images/desktop/image-hero.jpg');
+  }
+}

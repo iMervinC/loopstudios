@@ -1,0 +1,32 @@
+.title {
+  color: $White;
+  font-family: 'Josefin Sans';
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 40px;
+  padding: 2rem;
+  border: $White 2px solid;
+  min-width: 335px;
+  max-width: 350px;
+  // position: absolute;
+  // top: 50%;
+  // left: 50%;
+  // transform: translate(-50%, -50%);
+
+  @include respond(small) {
+    padding: 2rem;
+    max-width: 650px;
+    font-size: 65px;
+  }
+
+  &__container {
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include respond(small) {
+      justify-content: flex-start;
+    }
+  }
+}
