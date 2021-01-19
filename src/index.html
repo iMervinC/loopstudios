@@ -9,8 +9,8 @@
 </head>
 <body>
   <header class="banner-hero">
-    <nav class="nav container">
-      <img src="images/logo.svg" alt="logo" class="nav__logo">
+    <nav class="nav container" id="nav">
+      <img src="images/logo.svg" alt="logo" class="nav__logo" id="logo">
       <ul class="nav__bar">
         <li class="nav__bar__item"><a href="#">About</a></li>
         <li class="nav__bar__item"><a href="#">Careers</a></li>
@@ -26,11 +26,21 @@
     </nav>
     <div class="nav__mobile" id='nav-mobile'>
       <ul class="container">
+        <a href="#">
         <li>About</li>
-        <li>Careers</li>
-        <li>Events</li>
-        <li>Products</li>
-        <li>Support</li>
+        </a>
+        <a href="#">
+          <li>Careers</li>
+        </a>
+        <a href="#">
+          <li>Events</li>
+        </a>
+        <a href="#">
+          <li>Products</li>
+        </a>
+        <a href="#">
+          <li>Support</li>
+        </a>
       </ul>
     </div>
     <div class="container title__container">
@@ -49,59 +59,92 @@
     </div>
   </div>
 
-<div class="creation container">
- <div class="creation__top">
-  <h2 class="creation__top__title">
-    Our creations
-  </h2>
-  <div class="btn btn--top">See all</div>
- </div>
-  
-  <div class="creation__container">
-    <div class="creation__container__item deep-earth">
-      <span class="overlay"></span>
-      <p>Deep earth</p>
-    </div>
-    <div class="creation__container__item night-arcade">
-      <span class="overlay"></span>
-      <p>Night arcade</p>
-    </div>
-    <div class="creation__container__item soccer-team">
-      <span class="overlay"></span>
-      <p>Soccer team VR</p>
-    </div>
-    <div class="creation__container__item the-grid">
-      <span class="overlay"></span>
-      <p>The grid</p>
-    </div>
-    <div class="creation__container__item from-above">
-      <span class="overlay"></span>
-      <p>From up above VR</p>
-    </div>
-    <div class="creation__container__item pocket-borealis">
-      <span class="overlay"></span>
-      <p>Pocket borealis</p>
-    </div>
-    <div class="creation__container__item curiosity">
-      <span class="overlay"></span>
-      <p>The curiosity</p>
-    </div>
-    <div class="creation__container__item fisheye">
-      <span class="overlay"></span>
-      <p>Make it fisheye</p>
-    </div>
+  <div class="creation container">
+  <div class="creation__top">
+    <h2 class="creation__top__title">
+      Our creations
+    </h2>
+    <div class="btn btn--top">See all</div>
   </div>
-  <div class="btn btn--bot">See all</div>
-</div>
+    
+    <div class="creation__container">
+      <div class="creation__container__item deep-earth">
+        <span class="overlay"></span>
+        <p>Deep earth</p>
+      </div>
+      <div class="creation__container__item night-arcade">
+        <span class="overlay"></span>
+        <p>Night arcade</p>
+      </div>
+      <div class="creation__container__item soccer-team">
+        <span class="overlay"></span>
+        <p>Soccer team VR</p>
+      </div>
+      <div class="creation__container__item the-grid">
+        <span class="overlay"></span>
+        <p>The grid</p>
+      </div>
+      <div class="creation__container__item from-above">
+        <span class="overlay"></span>
+        <p>From up above VR</p>
+      </div>
+      <div class="creation__container__item pocket-borealis">
+        <span class="overlay"></span>
+        <p>Pocket borealis</p>
+      </div>
+      <div class="creation__container__item curiosity">
+        <span class="overlay"></span>
+        <p>The curiosity</p>
+      </div>
+      <div class="creation__container__item fisheye">
+        <span class="overlay"></span>
+        <p>Make it fisheye</p>
+      </div>
+    </div>
+    <div class="btn btn--bot">See all</div>
+  </div>
   
+  <footer class="footer">
+    <nav class="nav nav--footer container">
+     <div>
+      <img src="images/logo.svg" alt="logo" class="nav__logo">
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Support</a></li>
+      </ul>
+     </div>
+     <div>
+      <div class="socials">
+        <div class="img">
+          <img src="images/icon-facebook.svg" alt="facebook">
+          <span></span>
+        </div>
+        <div class="img">
+          <img src="images/icon-twitter.svg" alt="twitter">
+          <span></span>
 
-  About
-  Careers
-  Events
-  Products
-  Support
+        </div>
+        <div class="img">
+          <img src="images/icon-pinterest.svg" alt="pinterest">
+          <span></span>
 
-  © 2021 Loopstudios. All rights reserved.
+        </div>
+        <div class="img">
+          <img src="images/icon-instagram.svg" alt="instagram">
+          <span></span>
+
+        </div>
+      </div>
+      <h3>© 2021 Loopstudios. All rights reserved.</h3>
+     </div>
+    </nav>
+  </footer>
+
+
+
   <script src="js/index.js"></script>
 </body>
 </html>
