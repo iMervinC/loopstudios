@@ -4,7 +4,7 @@
   padding: 7rem 0;
 
   @include respond(small) {
-    margin: 100px auto !important;
+    margin: 160px auto !important;
     position: relative;
     height: 500px;
     padding: 0;
@@ -26,7 +26,7 @@
 
     @include respond(small) {
       position: absolute;
-      width: 43rem;
+      width: 38rem;
       padding: 4rem;
       right: 0;
       bottom: 0;
