@@ -1,0 +1,152 @@
+.creation {
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    &__title {
+      font-family: 'Josefin Sans';
+      text-transform: uppercase;
+      font-weight: 300;
+      font-size: 2.7rem;
+      width: 100%;
+      text-align: center;
+
+      @include respond(small) {
+        text-align: start;
+      }
+    }
+  }
+
+  &__container {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(256px, 1fr));
+    gap: 20px;
+
+    &__item {
+      position: relative;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-color: red;
+      height: 124px;
+      width: 100%;
+      background-size: cover;
+      background-position: top;
+      cursor: pointer;
+
+      @include respond(small) {
+        background-size: contain;
+        width: 256px;
+        height: 450px;
+      }
+
+      .overlay {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        transition: background-color 150ms ease-in;
+      }
+
+      &:hover > .overlay {
+        background-color: rgba(255, 255, 255, 0.548);
+      }
+
+      p {
+        z-index: 2;
+        position: absolute;
+        color: $White;
+        font-family: 'Josefin Sans';
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        font-weight: 300;
+        width: 138px;
+        bottom: 20px;
+        left: 20px;
+        transition: color 150ms ease-in;
+
+        @include respond(small) {
+          font-size: 2rem;
+          bottom: 40px;
+          left: 40px;
+        }
+      }
+
+      &:hover > p {
+        color: $Black;
+      }
+    }
+  }
+}
+
+.deep-earth {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+    url('/images/mobile/image-deep-earth.jpg');
+  @include respond(small) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+      url('/images/desktop/image-deep-earth.jpg');
+  }
+}
+
+.night-arcade {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+    url('/images/mobile/image-night-arcade.jpg');
+  @include respond(small) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+      url('/images/desktop/image-night-arcade.jpg');
+  }
+}
+
+.soccer-team {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+    url('/images/mobile/image-soccer-team.jpg');
+  @include respond(small) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+      url('/images/desktop/image-soccer-team.jpg');
+  }
+}
+
+.the-grid {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+    url('/images/mobile/image-grid.jpg');
+  @include respond(small) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+      url('/images/desktop/image-grid.jpg');
+  }
+}
+
+.from-above {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+    url('/images/mobile/image-from-above.jpg');
+  @include respond(small) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+      url('/images/desktop/image-from-above.jpg');
+  }
+}
+
+.pocket-borealis {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+    url('/images/mobile/image-pocket-borealis.jpg');
+  @include respond(small) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+      url('/images/desktop/image-pocket-borealis.jpg');
+  }
+}
+
+.curiosity {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+    url('/images/mobile/image-curiosity.jpg');
+  @include respond(small) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+      url('/images/desktop/image-curiosity.jpg');
+  }
+}
+
+.fisheye {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+    url('/images/mobile/image-fisheye.jpg');
+  @include respond(small) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+      url('/images/desktop/image-fisheye.jpg');
+  }
+}

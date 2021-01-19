@@ -117,7 +117,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"../node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+})({"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -149,7 +149,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],"../node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
+},{}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -184,12 +184,12 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"styles/style.scss":[function(require,module,exports) {
+},{"./bundle-url":"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"styles/style.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"C:\\Users\\mervin1503\\Downloads\\Front-end Practice projs\\loopstudios\\src\\images\\mobile\\image-hero.jpg":[["image-hero.1839d237.jpg","images/mobile/image-hero.jpg"],"images/mobile/image-hero.jpg"],"C:\\Users\\mervin1503\\Downloads\\Front-end Practice projs\\loopstudios\\src\\images\\desktop\\image-hero.jpg":[["image-hero.3d23263c.jpg","images/desktop/image-hero.jpg"],"images/desktop/image-hero.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"C:\\Users\\mervin1503\\Downloads\\Front-end Practice projs\\loopstudios\\src\\images\\mobile\\image-hero.jpg":[["image-hero.1839d237.jpg","images/mobile/image-hero.jpg"],"images/mobile/image-hero.jpg"],"C:\\Users\\mervin1503\\Downloads\\Front-end Practice projs\\loopstudios\\src\\images\\desktop\\image-hero.jpg":[["image-hero.3d23263c.jpg","images/desktop/image-hero.jpg"],"images/desktop/image-hero.jpg"],"C:\\Users\\mervin1503\\Downloads\\Front-end Practice projs\\loopstudios\\src\\images\\mobile\\image-deep-earth.jpg":[["image-deep-earth.9b00b105.jpg","images/mobile/image-deep-earth.jpg"],"images/mobile/image-deep-earth.jpg"],"C:\\Users\\mervin1503\\Downloads\\Front-end Practice projs\\loopstudios\\src\\images\\desktop\\image-deep-earth.jpg":[["image-deep-earth.3a473ae3.jpg","images/desktop/image-deep-earth.jpg"],"images/desktop/image-deep-earth.jpg"],"C:\\Users\\mervin1503\\Downloads\\Front-end Practice projs\\loopstudios\\src\\images\\mobile\\image-night-arcade.jpg":[["image-night-arcade.c5ac0f92.jpg","images/mobile/image-night-arcade.jpg"],"images/mobile/image-night-arcade.jpg"],"C:\\Users\\mervin1503\\Downloads\\Front-end Practice projs\\loopstudios\\src\\images\\desktop\\image-night-arcade.jpg":[["image-night-arcade.575c625b.jpg","images/desktop/image-night-arcade.jpg"],"images/desktop/image-night-arcade.jpg"],"C:\\Users\\mervin1503\\Downloads\\Front-end Practice projs\\loopstudios\\src\\images\\mobile\\image-soccer-team.jpg":[["image-soccer-team.4445e8e5.jpg","images/mobile/image-soccer-team.jpg"],"images/mobile/image-soccer-team.jpg"],"C:\\Users\\mervin1503\\Downloads\\Front-end Practice projs\\loopstudios\\src\\images\\desktop\\image-soccer-team.jpg":[["image-soccer-team.ca9685df.jpg","images/desktop/image-soccer-team.jpg"],"images/desktop/image-soccer-team.jpg"],"C:\\Users\\mervin1503\\Downloads\\Front-end Practice projs\\loopstudios\\src\\images\\mobile\\image-grid.jpg":[["image-grid.4a3ac470.jpg","images/mobile/image-grid.jpg"],"images/mobile/image-grid.jpg"],"C:\\Users\\mervin1503\\Downloads\\Front-end Practice projs\\loopstudios\\src\\images\\desktop\\image-grid.jpg":[["image-grid.f37eac91.jpg","images/desktop/image-grid.jpg"],"images/desktop/image-grid.jpg"],"C:\\Users\\mervin1503\\Downloads\\Front-end Practice projs\\loopstudios\\src\\images\\mobile\\image-from-above.jpg":[["image-from-above.10751646.jpg","images/mobile/image-from-above.jpg"],"images/mobile/image-from-above.jpg"],"C:\\Users\\mervin1503\\Downloads\\Front-end Practice projs\\loopstudios\\src\\images\\desktop\\image-from-above.jpg":[["image-from-above.a21ed867.jpg","images/desktop/image-from-above.jpg"],"images/desktop/image-from-above.jpg"],"C:\\Users\\mervin1503\\Downloads\\Front-end Practice projs\\loopstudios\\src\\images\\mobile\\image-pocket-borealis.jpg":[["image-pocket-borealis.c9e707c1.jpg","images/mobile/image-pocket-borealis.jpg"],"images/mobile/image-pocket-borealis.jpg"],"C:\\Users\\mervin1503\\Downloads\\Front-end Practice projs\\loopstudios\\src\\images\\desktop\\image-pocket-borealis.jpg":[["image-pocket-borealis.e73aacfc.jpg","images/desktop/image-pocket-borealis.jpg"],"images/desktop/image-pocket-borealis.jpg"],"C:\\Users\\mervin1503\\Downloads\\Front-end Practice projs\\loopstudios\\src\\images\\mobile\\image-curiosity.jpg":[["image-curiosity.e3526142.jpg","images/mobile/image-curiosity.jpg"],"images/mobile/image-curiosity.jpg"],"C:\\Users\\mervin1503\\Downloads\\Front-end Practice projs\\loopstudios\\src\\images\\desktop\\image-curiosity.jpg":[["image-curiosity.50a4f235.jpg","images/desktop/image-curiosity.jpg"],"images/desktop/image-curiosity.jpg"],"C:\\Users\\mervin1503\\Downloads\\Front-end Practice projs\\loopstudios\\src\\images\\mobile\\image-fisheye.jpg":[["image-fisheye.135af53e.jpg","images/mobile/image-fisheye.jpg"],"images/mobile/image-fisheye.jpg"],"C:\\Users\\mervin1503\\Downloads\\Front-end Practice projs\\loopstudios\\src\\images\\desktop\\image-fisheye.jpg":[["image-fisheye.801019e6.jpg","images/desktop/image-fisheye.jpg"],"images/desktop/image-fisheye.jpg"],"_css_loader":"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "21888" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "1488" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -393,5 +393,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
+},{}]},{},["../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
 //# sourceMappingURL=/style.ff1c4cab.js.map
