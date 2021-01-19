@@ -4,7 +4,7 @@
 
 ## Welcome! 👋
 
-🚀[Hosted at Vercel](loopstudios.imervinc.vercel.app)
+🚀Hosted @ [Vercel](loopstudios.imervinc.vercel.app)
 
 ## The challenge
 
